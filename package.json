@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Hash publishable NPM package content",
   "main": "index.js",
+  "bin": {
+    "hashpac": "./bin.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +14,13 @@
     "package"
   ],
   "author": "Nik Butenko <nik@butenko.me> (http://butenko.me)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ignore": "^3.3.3"
+  },
+  "files": [
+    "bin.js",
+    "index.js",
+    "README.md"
+  ]
 }
