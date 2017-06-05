@@ -1,0 +1,15 @@
+{
+  "name": "hashpac",
+  "version": "0.0.0",
+  "description": "Hash publishable NPM package content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hash",
+    "package"
+  ],
+  "author": "Nik Butenko <nik@butenko.me> (http://butenko.me)",
+  "license": "MIT"
+}
