@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 
 
-const {hashSync} = require('.');
+const {hashpac} = require('.');
 
 
-console.log(hashSync());
+const [cwd = process.cwd()] = process.argv.slice(2);
+
+
+console.log(hashpac({cwd}));

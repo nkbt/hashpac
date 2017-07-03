@@ -72,7 +72,7 @@ const encodeGitFiles = files => files
   .join('\n');
 
 
-exports.hashSync = ({
+exports.hashpac = ({
   cwd = process.cwd(),
   packageJson = path.join(cwd, 'package.json'),
   npmIgnore = path.join(cwd, '.npmignore')
