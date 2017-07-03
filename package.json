@@ -1,6 +1,6 @@
 {
   "name": "hashpac",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Hash publishable NPM package content",
   "main": "index.js",
   "bin": {
